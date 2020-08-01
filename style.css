@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+
+div.calander{
+    background: rgb(170, 172, 247);
+    box-shadow: 4px 4px  10px grey;
+
+}
+
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 3rem;
+    font-weight: 500;
+    justify-content: space-evenly;
+    cursor: none;
+    
+}
+
+button {
+    height: 3rem;
+    padding: none;
+}
+
+.Month{
+    width: 100%;
+    font-size: 4rem;
+    text-align: center;
+
+}
+
+.day-of-week{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    padding: 5px;
+
+}
+.mon,.tue,.wed,.thu,.fri,.sat,.sun{
+    color: black;
+    width: 150px;
+    height: 50px;
+    border: 1px solid grey;
+    text-align: center;
+    margin: 3px;
+    padding: 10px;
+}
+
+.firstRw,.secondRw,.thirdRw,.forthRw,.fifthRw{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.5rem;
+    padding: 5px;
+    cursor:pointer;
+
+}
